@@ -1,4 +1,3 @@
-# Minimal Mistakes Settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 
@@ -26,11 +25,11 @@ plugins:
 paginate: 5
 paginate_path: "/page:num/"
 
-# Author
+# Author Settings
 author:
   name: "Nama Kamu"
   avatar: "/assets/images/profile.jpg"
-  bio: "Mahasiswa Teknik Keamanan Siber tahun pertama dengan komitmen pada praktik keamanan defensif dan etis."
+  bio: "Mahasiswa Teknik Keamanan Siber tahun pertama"
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
