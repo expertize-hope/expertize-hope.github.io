@@ -53,3 +53,6 @@ defaults:
       comments: false
       share: false
       related: false
+
+# Force rebuild timestamp
+rebuild_trigger: 20260403
