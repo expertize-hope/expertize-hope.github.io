@@ -1,0 +1,63 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+
+# Remote Theme Configuration (Wajib untuk Minimal Mistakes di GitHub Pages)
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+
+# Skin Setting (Tampilan Warna)
+# Pilihan: default, air, aqua, blush, plum, dark, dll.
+# Saran Mentor: 'default' atau 'air' untuk kesan profesional bersih.
+minimal_mistakes_skin: "default"
+
+# Site Settings
+title: "Nama Lengkap Kamu"
+subtitle: "Cybersecurity Engineering Student | Blue Team Operations"
+description: "Fokus pada Defensive Security, Security Awareness, dan Deteksi Ancaman Berbasis Perilaku"
+url: "https://username.github.io" # Ganti dengan username GitHub kamu
+baseurl: ""
+repository: "username/username.github.io" # Ganti dengan username/repo kamu
+
+# Site Author (Informasi Profil)
+author:
+  name: "Nama Lengkap Kamu"
+  avatar: "/assets/images/profile.jpg" # Nanti kita upload foto disini
+  bio: "Mahasiswa Teknik Keamanan Siber tahun pertama dengan komitmen pada praktik keamanan defensif dan etis."
+  location: "Indonesia"
+  email: "email.profesional@kamu.com" # Gunakan email profesional, bukan email pribadi utama jika khawatir spam
+  uri: "https://username.github.io"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/username"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/username"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:email.profesional@kamu.com"
+
+# Output Settings
+html:
+  compress: true
+  lint: true
+  whitelist: []
+  explode: false
+
+# Pagination (Untuk blog nanti)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Default Front Matter
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
