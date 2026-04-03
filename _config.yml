@@ -1,5 +1,5 @@
 # Minimal Mistakes Settings
-remote_theme: mmistakes/minimal-mistakes@4.26.2
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 
 # Site Settings
@@ -13,9 +13,9 @@ repository: "expertise-hope/expertize-hope.github.io"
 markdown: kramdown
 highlighter: rouge
 
-# Plugins (untuk GitHub Pages)
+# Plugins
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -26,14 +26,23 @@ plugins:
 paginate: 5
 paginate_path: "/page:num/"
 
-# Disable yang tidak perlu untuk menghindari error
-twitter:
-  username: 
-social:
-  name: 
+# Author
+author:
+  name: "Nama Kamu"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Mahasiswa Teknik Keamanan Siber tahun pertama dengan komitmen pada praktik keamanan defensif dan etis."
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/username"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/expertize-hope"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:email@kamu.com"
 
-# Default Front Matter
+# Defaults
 defaults:
   - scope:
       path: ""
